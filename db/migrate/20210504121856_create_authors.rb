@@ -1,6 +1,4 @@
 class CreateAuthors < ActiveRecord::Migration[6.1]
-  validates :name, uniqueness: true
-  validates :phone_number, length: 10
 
   def change
     create_table :authors do |t|
