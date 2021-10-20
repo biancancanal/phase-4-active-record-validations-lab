@@ -1,5 +1,4 @@
 class CreatePosts < ActiveRecord::Migration[6.1]
-  validates :title, :content
 
   def change
     create_table :posts do |t|
